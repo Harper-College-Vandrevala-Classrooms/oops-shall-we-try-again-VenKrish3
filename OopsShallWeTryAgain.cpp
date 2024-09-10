@@ -16,7 +16,7 @@ int prompt(int x, int y, string entry, string error)
 {
 	int num;
 	cout << entry;
-		cin >> num;
+	cin >> num;
 	while(!(num>=x && num<=y))
 	{
 		cout << error << endl;
